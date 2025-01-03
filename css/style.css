@@ -80,3 +80,17 @@ a {
   color: #d879f8;
   text-decoration: none;
 }
+
+.back {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #0e0023;
+  color: #e7f0f6;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: left;
+  width: 40px;
+  box-shadow: 0 2px 6px rgba(177, 99, 255, 0.144);
+}
