@@ -1,0 +1,11 @@
+body {
+  background-color: #31313d;
+  color: #e7f0f6;
+  font-family: proxima-nova, sans-serif;
+  margin: 20px;
+  padding: 10px;
+}
+
+a {
+  color: #e5a9f9;
+}
