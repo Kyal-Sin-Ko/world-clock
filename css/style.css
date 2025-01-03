@@ -2,8 +2,18 @@ body {
   background-color: #31313d;
   color: #e7f0f6;
   font-family: proxima-nova, sans-serif;
+  text-align: center;
   margin: 20px;
   padding: 10px;
+}
+
+footer {
+  font-family: proxima-nova, sans-serif;
+  color: #e7f0f6;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #e7f0f6;
 }
 
 a {
