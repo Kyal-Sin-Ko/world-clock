@@ -29,6 +29,9 @@ setInterval(function () {
 
 function updateCity(event) {
   let cityTimeZone = event.target.value;
+  if (cityTimeZone === "current") {
+    cityTimeZone = moment.tz.guess();
+  }
   let cityName = cityTimeZone.replace("_", " ").split("/")[1];
   // split("/") - to split the string by "/"
   // .replace("_", " ") - to replace the underscore with a space
@@ -47,5 +50,5 @@ function updateCity(event) {
   `;
 }
 
-let citiesSelectElement = document.querySelector("#city");
-citiesSelectElement.addEventListener("change", updateCity);
+let citySelectElement = document.querySelector("#city");
+citySelectElement.addEventListener("change", updateCity);
